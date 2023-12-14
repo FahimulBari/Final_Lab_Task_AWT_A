@@ -18,7 +18,7 @@ export default function Login(){
 
     return(
         <form onSubmit={handleSubmit}>
-            Email: <input type="text" name="email" />
+            Email: <input type="text" name="email" /> <br />
             Password: <input type="text" name="password" />
             <button>Submit</button>
         </form>
